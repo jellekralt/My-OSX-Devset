@@ -21,6 +21,8 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 ### [Sublime](http://www.sublimetext.com/)
 
+Although the editor is awesome, I really hate the icon, I solve this by replacing the default icon by [this beautiful icon](https://dribbble.com/shots/468176-Icon-Sublime-Text-for-themes-with-white-background) by [Dmitry Svetlichny](https://dribbble.com/vocaltsunami)
+
 ## Build tools
 - [Yeoman](http://www.yeoman.io)
 - [Grunt](http://www.grunt.io)
