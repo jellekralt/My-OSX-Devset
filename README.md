@@ -1,4 +1,4 @@
-My-OSX-Devset
+My OSX Devset
 =============
 
 This repo describes my favorite tools and settings for web development on OSX (Node.js, JavaScript, SASS, ColdFusion, etc)
@@ -14,9 +14,15 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 
 
-### Sass
+### [Sass](http://sass-lang.com/)
+```
+gem install sass
+```
 
-### Compass
+### [Compass](http://compass-style.org/)
+```
+gem install compass
+```
 
 
 ### [Sublime](http://www.sublimetext.com/)
