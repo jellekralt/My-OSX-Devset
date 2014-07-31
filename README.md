@@ -30,3 +30,4 @@ Although the editor is awesome, I really hate the icon, I solve this by replacin
 
 
 ### [Growl](http://growl.info/)
+"The Ultimate Notification System for OS X. Growl is the easiest way to know what's going on with your applications."
