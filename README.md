@@ -21,7 +21,13 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 ### [Sublime](http://www.sublimetext.com/)
 
-Although the editor is awesome, I really hate the icon, I solve this by replacing the default icon by [this beautiful icon](https://dribbble.com/shots/468176-Icon-Sublime-Text-for-themes-with-white-background) by [Dmitry Svetlichny](https://dribbble.com/vocaltsunami)
+Although the editor is awesome, I really hate the icon, I solve this by replacing the default icon by [this beautiful icon](https://dribbble.com/shots/468176-Icon-Sublime-Text-for-themes-with-white-background) by [Dmitry Svetlichny](https://dribbble.com/vocaltsunami).
+
+I also like to be able to run sublime from the terminal, if you follow [this explanation](https://gist.github.com/artero/1236170) you'll be able to run
+```
+sublime foldername
+```
+to open files / folders in sublime.
 
 ## Build tools
 - [Yeoman](http://www.yeoman.io)
