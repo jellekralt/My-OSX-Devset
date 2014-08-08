@@ -16,7 +16,7 @@ Node.js® is a platform built on Chrome's JavaScript runtime for easily building
 #### Install
 Use the installer provided on [nodejs.org](http://nodejs.org)
 
-#### Configurate
+#### Configure
 To prevent access errors you should chown the ~/.npm folder
 
 ```
