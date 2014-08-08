@@ -10,7 +10,21 @@ Homebrew installs the stuff you need that Apple didn’t.
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
 
-### [Node JS]
+### [Node JS](http://nodejs.org)
+Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.
+
+#### Install
+Use the installer provided on [nodejs.org](http://nodejs.org)
+
+#### Configurate
+To prevent access errors you should chown the ~/.npm folder
+
+```
+cd ~/.npm/
+sudo chown $USERNAME$ *
+```
+
+Replace $USERNAME$ with your own username
 
 
 
