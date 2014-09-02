@@ -4,6 +4,8 @@ My OSX Devset
 This repo describes my favorite tools and settings for web development on OSX (Node.js, JavaScript, SASS, ColdFusion, etc)
 This list is ordered by installation order which I used the last time I reinstalled my system.
 
+## Software
+
 ### [Brew](http://www.brew.sh)
 Homebrew installs the stuff you need that Apple didn’t.
 ```
@@ -57,3 +59,21 @@ to open files / folders in sublime.
 
 ### [Growl](http://growl.info/)
 "The Ultimate Notification System for OS X. Growl is the easiest way to know what's going on with your applications."
+
+## Bash configuration
+I use the following .bash_profile modifications 
+
+### Tab naming shortcut
+As I mostly have multiple terminal tabs open, I often get confused about what runs in which tab. I found [this blogpost](http://rod.pu-gh.com/2010/04/iterm-tab-names.html) with a cool bash function to define a name for your tab.
+
+Add this to your ~/.bash_profile
+```bash
+tabname() {
+    export PROMPT_COMMAND='echo -ne "\033]0;'$1'\007"';
+}
+```
+After adding that and restarting your terminal session you can run:
+
+```shell
+$> tabname "some tab name"
+```
