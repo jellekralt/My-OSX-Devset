@@ -61,9 +61,12 @@ to open files / folders in sublime.
 "The Ultimate Notification System for OS X. Growl is the easiest way to know what's going on with your applications."
 
 ## Bash configuration
-I use the following .bash_profile modifications 
+Check out the .bash_profile file in this repo to see my complete bash profile config.
 
-### Tab naming shortcut
+### Functions
+I use the following .bash_profile functions
+
+#### Tab naming shortcut
 As I mostly have multiple terminal tabs open, I often get confused about what runs in which tab. I found [this blogpost](http://rod.pu-gh.com/2010/04/iterm-tab-names.html) with a cool bash function to define a name for your tab.
 
 Add this to your ~/.bash_profile
@@ -77,3 +80,19 @@ After adding that and restarting your terminal session you can run:
 ```shell
 $> tabname "some tab name"
 ```
+
+#### Simple HTTP Server
+Sometimes, I find it useful to open a specific folder as a simple http server to check out some files in my browser (without opening it with file://). I found this little snippet that does just that.
+
+add this to your ~/.bash_profile
+```bash
+server() {
+	open "http://localhost:${1}" && python -m SimpleHTTPServer $1
+}
+```
+After adding that and restarting your terminal session you can run:
+
+```shell
+$> server 8080
+```
+to open a browser and start a simple http server in the folder you are currently working in.
