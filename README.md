@@ -96,3 +96,19 @@ After adding that and restarting your terminal session you can run:
 $> server 8080
 ```
 to open a browser and start a simple http server in the folder you are currently working in.
+
+#### PFX to Cer
+I need to convert a lot of PFX (SSL Certificate exports) to a certificate file to install on Amazon ELB's. I use a shortcut to quickly convert the pfx to a cer file
+
+add this to your ~/.bash_profile
+
+```
+pfxtocer() {
+	openssl pkcs12 -in $1 -out $2 -nodes
+}
+```
+After adding that and restarting your terminal session you can run:
+
+```
+$> pfxtocer export.pfx certificate.cer
+```
