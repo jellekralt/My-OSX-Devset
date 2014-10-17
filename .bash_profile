@@ -30,3 +30,9 @@ tabname() {
 server() {
 	open "http://localhost:${1}" && python -m SimpleHTTPServer $1
 }
+
+# Pfx to Cer
+# - Converts PFX file to Cer
+pfxtocer() {
+	openssl pkcs12 -in $1 -out $2 -nodes
+}
