@@ -6,14 +6,14 @@ This list is ordered by installation order which I used the last time I reinstal
 
 ## Software
 
-### [Sublime Text]
+### [Sublime Text](http://www.sublimetext.com/)
 As an editor I prefer [Sublime Text](http://www.sublimetext.com/). Also, I really like to start it from the command line, by adding the [command line tool](http://www.sublimetext.com/docs/3/osx_command_line.html).
 
-### [Git]
+### [Git](http://git-scm.com/)
 This should be pretty obvious (seeing as this guide is hosted on Github)
 
 ### Install
-Git comes with the XCode command line tools, this is the easiest way to get git because you will probably need the XCode command line tools anyway. This version of git is however not the most recent. I personally prefer to install a newer version by downloading the binary installer from [git-scm.com](http://git-scm.com/download/mac.)
+Git comes with the XCode command line tools, this is the easiest way to get git because you will probably need the XCode command line tools anyway. This version of git is however not the most recent. I personally prefer to install a newer version by downloading the binary installer from [git-scm.com](http://git-scm.com/download/mac).
 
 ### Configure
 
